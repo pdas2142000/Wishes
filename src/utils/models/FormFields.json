@@ -1,0 +1,465 @@
+ 
+{ 
+    "LogIn": { 
+        "password": { 
+            "label": "common.passPlaceholder",
+            "placeholder": "password",
+            "errors": {
+                "required": "enter valid Password",
+                "minLength": {
+                    "value": 8,
+                    "message": "password must have a minimum of 8 characters"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "password cannot exceed 16 characters"
+                }
+            }
+        },
+        "phone": {
+            "label": "common.phonePlaceholder",
+            "placeholder": "common.phonePlaceholder",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "message": "please enter valid phone number (eg: 9876543210)"
+                }
+            }
+        }
+    },
+    "SignUp": {
+        "phone": {
+            "label": "common.phonePlaceholder", 
+            "placeholder": "common.phonePlaceholder",
+            "errors": {
+                "required": "common.required",
+                "pattern": {
+                    "message": "please enter valid phone number"
+                }
+            }
+        },
+        "password": {
+            "label": "common.passPlaceholder",
+            "placeholder": "common.passPlaceholder",
+            "errors": {
+                "required": "common.error",
+                "minLength": {
+                    "value": 8,
+                    "message": "common.minText"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "common.maxText"
+                }
+            }
+        },
+        "password_confirmation": {
+            "label": "common.confirmPassword",
+            "placeholder": "common.confirmPassword",
+            "errors": {
+                "required": "common.required",
+                "not_equal": "common.matchText"
+            }
+        },
+        "first_name": {
+            "label": "RegisterScreen.firstNamePlaceholder",
+            "placeholder": "RegisterScreen.firstNamePlaceholder",
+            "errors": {
+                "required": "first name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "first name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "first name can not exceed 50 characters!"
+                }
+            }
+        },
+        "last_name": {
+            "label": "RegisterScreen.lastNamePlaceholder",
+            "placeholder": "RegisterScreen.lastNamePlaceholder",
+            "errors": {
+                "required": "last name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "last name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "last name can not exceed 50 characters!"
+                }
+            }
+        }
+    },
+    "otp": {
+        "otp": {
+            "label": "otp",
+            "placeholder": "OtpScreen.placeText",
+            "errors": {
+                "required": "otp is required",
+                "pattern": {
+                    "value": 6,
+                    "message": "enter 6 digit code sent to your register number"
+                }
+            }
+        }
+    },
+    "reset": {
+        "phone": {
+            "label": "common.phonePlaceholder",
+            "placeholder": "common.phonePlaceholder",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "message": "please enter valid phone number (eg: 9876543210)"
+                }
+            }
+        }
+    },
+    "ChangePassword": {  
+        "password": {
+            "label": "ChangePasswordScreen.changePassword",
+            "placeholder": "common.passPlaceholder",
+            "errors": {
+                "required": "ChangePasswordScreen.error",
+                "minLength": {
+                    "value": 8,
+                    "message": "ChangePasswordScreen.minText"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "ChangePasswordScreen.maxText"
+                }
+            }
+        },
+        "password_confirmation": {
+            "label": "ChangePasswordScreen.confirmNewpass",
+            "placeholder": "ChangePasswordScreen.confirmNewpass",
+            "errors": {
+                "required": "ChangePasswordScreen.cnfError",
+                "match": "ChangePasswordScreen.matchText"
+            }
+        }
+    },
+    "edit_profile":{
+        "first_name": {
+            "label": "RegisterScreen.firstNamePlaceholder",
+            "placeholder": "RegisterScreen.firstNamePlaceholder",
+            "errors": { 
+                "required": "first name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "first name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "first name can not exceed 50 characters!"
+                }
+            }
+        },
+        "last_name": { 
+            "label": "RegisterScreen.lastNamePlaceholder",
+            "placeholder": "RegisterScreen.lastNamePlaceholder",
+            "errors": {
+                "required": "last name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "first name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "first name can not exceed 50 characters!"
+                }
+            }
+        },
+        "phone": {
+            "label": "RegisterScreen.phone", 
+            "placeholder": "RegisterScreen.phone",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "message": "please enter valid phone number (eg: 9876543210)"
+                }
+            }
+        },
+        "format_time": {
+            "label": "Time", 
+            "placeholder": "Time ",
+            "errors": {
+                "required": "format time is required"
+            }
+        },
+        "file": {
+            "label": "file", 
+            "placeholder": "file ",
+            "errors": {
+                "required": "file is required"
+            }
+        },
+        "time_format": {
+            "label": "hours", 
+            "placeholder": "hours ",
+            "errors": {
+                "required": "hours is required"
+            }
+        }
+    },
+    "profile_change_password": {
+        "old_password": {
+            "label": "Old password", 
+            "placeholder": "password",
+            "errors": {
+                "required": "ChangePasswordScreen.error",
+                "minLength": {
+                    "value": 8,
+                    "message": "ChangePasswordScreen.minText"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "ChangePasswordScreen.maxText"
+                }
+            }
+        },
+        "password": { 
+            "label": "ChangePasswordScreen.newPassword",
+            "placeholder": "ChangePasswordScreen.newPassword",
+            "errors": {
+                "required": "ChangePasswordScreen.error",
+                "minLength": {
+                    "value": 8,
+                    "message": "ChangePasswordScreen.minText"
+                },
+                "maxLength": {
+                    "value": 16,
+                    "message": "ChangePasswordScreen.maxText"
+                }
+            }
+        },
+        "password_confirmation": {
+            "label": "ChangePasswordScreen.confirmNewpass",
+            "placeholder": "ChangePasswordScreen.confirmNewpass",
+            "errors": {
+                "required": "ChangePasswordScreen.cnfError",
+                "match": "ChangePasswordScreen.matchText"
+            }
+        }
+    },
+    "feedback": {
+         
+        "subject": {
+            "label": "feedback.subject",
+            "placeholder": "feedback.subject",
+            "errors": {
+                "required": "subject is required",
+                "minLength": { 
+                    "value": 10,
+                    "message": "last name has to be minimum 10 characters!"
+                },
+                "maxLength": {
+                    "value": 100,
+                    "message": "last name can not exceed 100 characters!"
+                }
+            }
+        },
+        "message": {
+            "label": "feedback.message",
+            "placeholder": "feedback.placeHolder",
+            "errors": {
+                "required": "message is required",
+                "minLength": {
+                    "value": 50,
+                    "message": "message has to be minimum 50 characters!"
+                },
+                "maxLength": {
+                    "value": 200,
+                    "message": "message can not exceed 200 characters!"
+                }
+            }
+        }
+    },
+    "new_event":{
+        "file": {
+            "label": "file", 
+            "placeholder": "file ",
+            "errors": {
+                "required": "file is required" 
+            }
+        },
+        "name": { 
+            "label": "EventDetailsScreen.eventName",
+            "placeholder": "EventDetailsScreen.eventName",
+            "errors": {
+                "required": "event name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "event name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "event name can not exceed 50 characters!"
+                }
+            } 
+        },
+        "date": { 
+            "label": "EventDetailsScreen.date",
+            "placeholder": "enter Event date",
+            "errors": {
+                "required": "event date is required"
+            }
+        },
+        "time": { 
+            "label": "EventDetailsScreen.time",
+            "placeholder": "--",
+            "optional":"common.optional",
+            "errors": {
+                "required": "Event Time is required"
+            }
+        },
+        "venue": { 
+            "label": "EventDetailsScreen.eventLocation",
+            "placeholder": "EventDetailsScreen.eventLocation",
+            "optional":"common.optional",
+            "errors": {
+                "required": "event location is required"
+            }
+        }
+    },
+    "new_wishlist":{
+        "file": {
+            "label": "file", 
+            "placeholder": "file ",
+            "errors": {
+                "required": "file is required" 
+            }
+        },
+        "name": { 
+            "label": "AddAndEditWishScreen.labelWishName",
+            "placeholder": "AddAndEditWishScreen.labelWishName",
+            "errors": {
+                "required": "Wish name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "Wish name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "Wish name can not exceed 50 characters!"
+                }
+            }
+        }
+    },
+    "add_wish":{
+        "file": {
+            "label": "file", 
+            "placeholder": "file ",
+            "errors": { 
+                "required": "file is required" 
+            }
+        },
+        "name": { 
+            "label": "AddAndEditWishScreen.labelWishName",
+            "placeholder": "AddAndEditWishScreen.labelWishName",
+            "errors": {
+                "required": "Wish name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "Wish name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "wish name can not exceed 50 characters!"
+                }
+            }
+        },
+        "quantity": {
+            "label": "common.labelQuantity", 
+            "placeholder": "quantity ",
+            "errors": {
+                "required": "quantity is required" 
+            }
+        },
+        "url": {
+            "label": "AddAndEditWishScreen.labelEventUrl", 
+            "placeholder": "web url", 
+            "optional":"common.optional",
+            "errors": {
+                "required": "website is required" 
+            }
+        }, 
+        "description": {
+            "label": "AddAndEditWishScreen.labelComment", 
+            "placeholder": "AddAndEditWishScreen.labelComment",
+            "optional":"common.optional",
+            "errors": {
+                "required": "website is required" 
+            }
+        }
+    },
+    "add_contact":{ 
+        "first_name": { 
+            "label": "RegisterScreen.firstNamePlaceholder",
+            "placeholder": "RegisterScreen.firstNamePlaceholder",
+            "errors": {
+                "required": "first name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "first name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "first name can not exceed 50 characters!"
+                }
+            }
+        }, 
+        "last_name": { 
+            "label": "RegisterScreen.lastNamePlaceholder",
+            "placeholder": "RegisterScreen.lastNamePlaceholder",
+            "errors": {
+                "required": "last name is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "last name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "last name can not exceed 50 characters!"
+                }
+            }
+        },
+        "phone": {
+            "label": "RegisterScreen.phone", 
+            "placeholder": "RegisterScreen.phone",
+            "errors": {
+                "required": "phone number is required",
+                "pattern": {
+                    "message": "please enter valid phone number (eg: 9876543210)"
+                }
+            }
+        }
+    },
+    "create_chat":{
+        "file": {
+            "label": "file", 
+            "placeholder": "file ",
+            "errors": {
+                "required": "file is required" 
+            }
+        },
+        "name": { 
+            "label": "ChatScreen.nameTheNewChat",
+            "placeholder": "ChatScreen.nameTheNewChat",
+            "errors": {
+                "required": "name of chat is required",
+                "minLength": {
+                    "value": 3,
+                    "message": "chat name has to be minimum 3 characters!"
+                },
+                "maxLength": {
+                    "value": 50,
+                    "message": "chat name can not exceed 50 characters!"
+                }
+            }
+        }
+    }
+}   

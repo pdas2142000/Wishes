@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "638766133121",
+    "project_id": "craftnotion-f02b2",
+    "storage_bucket": "craftnotion-f02b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638766133121:android:2dae9ba570888f920e0280",
+        "android_client_info": {
+          "package_name": "com.secondaid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoKvVyRIN9ConPhIYRLMEltoDUKB5m9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638766133121:android:159deb3dca533bda0e0280",
+        "android_client_info": {
+          "package_name": "com.secondaid_doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoKvVyRIN9ConPhIYRLMEltoDUKB5m9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638766133121:android:7ca883dbf2ad46cd0e0280",
+        "android_client_info": {
+          "package_name": "com.wishes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoKvVyRIN9ConPhIYRLMEltoDUKB5m9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

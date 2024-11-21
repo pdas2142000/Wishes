@@ -1,0 +1,338 @@
+{
+  "common": {
+    "icuGuest": "{numPersons, plural, =0 {0 Guest} =1 {1 Guest} other {# Guests}}",
+    "icuWishe": "{numPersons, plural, =0 {0 Wish} =1 {1 Wish} other {# Wishes}}",
+    "submit": "Submit", 
+    "google": "Google",
+    "facebook": "Facebook",
+    "back": "Back", //Navigate back to previous screen
+    "emailPlaceholder": "Email address", //Text shown in input field, when empty
+    "phonePlaceholder": "Phone", //Text shown in input field, when empty
+    "passPlaceholder": "Password", //Text shown in input field, when empty
+    "confirmPassword": "Confirm Password",
+    "reset": "Reset", //Reset button, when resetting password
+    "backLogin": "go back",
+    "gotoLink": "See website", //Text on button for users external link
+    "participants": "Participants",
+    "sharedGroups": "Shared groups", //Groups of people. Might not be used
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "logout": "Log out",
+    "save": "Save",
+    "ok": "OK",
+    "block": "Block %{name}", //As in "Block Brian Trump"
+    "close": "Close", //As in "Close the window"
+    "publish": "Published", //Make a draft wish list visible
+    "unpublish": "Unpublished",
+    "details": "Details", //Wish list details
+    "wishListSingular": "Wish list",
+    "wishListPlural": "Wish lists",
+    "wishSingular": "Wish",
+    "wishPlural": "Wishes",
+    "productUrl": "Product url",
+    "guestSingular": "Guest",
+    "guestPlural": "Guests",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "searchPlaceholder": "Search by...", //Text shown in input field, when empty
+    "wishListBy": "Wish list by", //As in "Wish list owned by X". "Wish list by John"
+    "eventDate": "Date",
+    "edit": "Edit",
+    "change": "Change",
+    "Version": "Version %{version}", //App version. Don't translate %{version}
+    "update": "Update",
+    "respond": "Respond",
+    "draft": "Not published", //When a wish list is still a draft. (changing between "Publish" and "Not published")
+    "me": "Me", //As in "Myself"
+    "viewAllInvitations": "View all invitations",
+    "accept": "Accept", //As in "I accept"
+    "reject": "Reject", //As in "I reject it"
+    "selectLanguage": "Select language",
+    "rateApp": "Rate this app", //Rate app in app store
+    "24hours": "24-Hours",
+    "invite": "Invite", //As in "Invite Joanna"
+    "timeAt": "at", //"at 12pm"
+    "online": "Online", //As in "Is online"
+    "offline": "Offline", //As in "Is offline"
+    "welcomeMessage": "%{users} joined Wishes", //As in "Anna joined Wishes". Don't translate %{users}
+    "image": "Image",
+    "chooseFromGallery": "Choose from gallery",
+    "removeUploadedImg": "Remove image",
+    "labelQuantity": "Quantity",
+    "optional": "optional", //As in "Field is optional"
+    "enterReceivedCode": "Enter code from the received text message",
+    "confirm": "Confirm",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "noInternetConnection": "No internet connection",
+    "removeMeFromEvent": "Delete list (remove me)",
+    "blockConfirmation": "Are you sure you want to block this user? Once blocked, this user will not be able to send you event invitations.",
+    "invitationFrom": "Invitation from",
+    "unblock": "Unblock", //As in "Block a person"
+    "notFoundText": "No events found.",
+    "sureDelete": "Aru you sure you want to delete?",
+    "sureDeleteTwo": "Aru you sure you want to delete",
+    "wishNot": "Wishes not found",
+    "gaustNot": "Guests not found",
+    "remove": "Remove",
+    "removeText": "Aru you sure you want to remove?",
+    //new words in version 2.0 
+    "filters": "Filters",
+    "viewTypes": "View Types",
+    "takeAphoto": "Take a photo",
+    "Draft": "Draft",
+    "size": "SIZE",
+    "date": "DATE",
+    "time": "TIME",
+    "contacts": "Contacts",
+    "addContact": "Add Contact",
+    "done": "Done",
+    "Block": "Block",
+    "Event": "Event",
+    "Wishlist": "Wishlist",
+    "add": "Add",
+    "noContactMessage": "No Contacts Found!",
+    "PermissionContact": "Please allow permissions for contacts",
+    "allow": "Allow",
+    "name": "Name",
+    "email": "Email",
+    "sendInvite": "Send Invite",
+    "share": "Share",
+    "addWish": "Add Wish",
+    "addguest": "Add Guest",
+    "Online": "Online",
+    "menu": "Menu",
+    "feedback": "Feedback",
+    "theme": "Themes",
+    "deleteAccount": "Delete Account",
+    "Website": "Website",
+    "comments": "Comments",
+    "Info": "Info",
+    "editWish": "Edit Wish",
+    "addNew": "Add New",
+    "manageGuest": "Manage Guest",
+    "chat": "Chat",
+    "eventDetail": "Event Details",
+    "guest": "Guests",
+    "wishList": "Wish lists",
+    "createChat": "Create Chat",
+    "createnew": "Create New",
+    "memberGroup": "Member of group",
+    "events": "Events",
+    "manageEvent": "Manage Event",
+    "wishes": "Wishes",
+    "wishBank": "Wish Bank",
+    "wishItem": "Wish Item",
+    "chooseImage": "Choose image",
+    "inviteVia": "Invite via",
+    "setLanguage": "Set Languages",
+    "selectTheme": "Select Theme",
+    "deleteAccountConfirmation": "Are you sure you want to delete all your account data? this change is irreversible",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "pleaseConfirm": "Please Confirm",
+    "noWishListsFound": "No General Wish List Found",
+    "organisedBy": "Organised By",
+    "shareMessage": "Share Message type here",
+    "chooseWish": "Choose Wish",
+    "addWishtab": "Add Wish",
+    "GeneralWishList": "General WishList",
+    "viewAll": "View All",
+    "meText": "my lists",
+    "addwish": "add wish",
+    "invitationNot": "No invitaions found.",
+    "editEvent": "Edit Event",
+    "editWishes": "Edit Wishes",
+    "editWishList": "Edit Wish List",
+    "required": "field is required",
+    "error": "enter valid Password",
+    "matchText": "Passwords must match",
+    "minText": "password must have a minimum of 8 characters",
+    "maxText": "password cannot exceed 16 characters",
+    "cnfError": "enter valid Confirm New Password"
+  },
+  "errors": {
+    "fieldError": "Some of the fields you entered are not valid",
+    "invalidPhone": "Entered phone number is not valid",
+    "passwordMatchError": "Passwords do not match"
+  },
+  "LoginScreen": {
+    "logIn": "Log In",
+    "forgotPassText": "Forgot password?",
+    "orContinueWith": "or continue with", //As in "Or continue with Google"
+    "dontHaveAccount": "Don't have an account? Register",
+    "signUpNow": "Register now",
+    "itsFree": "It's free"
+  },
+  "RegisterScreen": {
+    "signUp": "Sign up",
+    "firstNamePlaceholder": "First name",
+    "lastNamePlaceholder": "Last name",
+    "register": "Register", //The "Submit sign up form" button.
+    "alreadyAccount": "Already have an account? Sign in",
+    "logInNow": "Log in now",
+    "accText": "By continuing, i acknowledge the",
+    "policyText": "Wishes App Privacy Policy",
+    "phone": "Phone number"
+  },
+  "ForgotPassword": {
+    "heading": "Forgot password?",
+    "sendConfirmationCode": "Send Reset Code",
+    "forgotPasswordExplainLine": "If you forgot your password, you can reset it. Enter your mobile number below, to request the confirmation code you will need to reset your password."
+  },
+  "ResetPassword": {
+    "resetPassword": "Reset password"
+  },
+  "OtpScreen": {
+    "hadeing": "Verify Code",
+    "otpText": "Please enter the code we send to your number",
+    "notReceive": "Didn't receive otp?",
+    "resendText": "Resend OTP",
+    "placeText": "enter code"
+  },
+  "MessagesInfoScreen": {
+    "chatCleared": "Chat has been cleared",
+    "clearChatConfirmation": "Are you sure you want to clear the chat?",
+    "clearChat": "Clear Chat",
+    "deleteChatConfirmation": "Are you sure you want to delete the chat?",
+    "blockConfirmation": "Are you sure you want to block?"
+  },
+  "ChangePasswordScreen": {
+    "changePassword": "Change password",
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "confirmNewpass": "Confirm new password",
+    "error": "enter valid Password",
+    "cnfError": "enter valid Confirm New Password",
+    "matchText": "Passwords must match",
+    "minText": "password must have a minimum of 8 characters",
+    "maxText": "password cannot exceed 16 characters"
+  },
+  "BlockedUserScreen": {
+    "blockedContacts": "Blocked Contacts",
+    "noContactsBlocked": "No contacts blocked"
+  },
+  "EditAccountInfoScreen": {
+    "editAccountInfo": "Edit Account info"
+  },
+  "EventDetailsScreen": {
+    "details": "Details",
+    "eventName": "Event name",
+    "enterWishListName": "Enter wish list name",
+    "date": "Date",
+    "time": "Time",
+    "eventLocation": "Event location",
+    "eventLocationPlaceholder": "Enter event location",
+    "selectTime": "select time",
+    "selectDate": "select date"
+  },
+  "ManageGuestsScreen": {
+    "addGroup": "Add group",
+    "eventGuestsCat": "Group",
+    "enterGroup": "Enter group name",
+    "noGroup": "No groups found",
+    "editGuests": "Manage guests"
+  },
+  "ManageWishesScreen": {
+    "editWishes": "Edit",
+    "noWishes": "No wishes found"
+  },
+  "ManageEventScreen": {
+    "deleteEvent": "Delete wish list",
+    "deleteConfirmation": "Are you sure you want to delete %{EventName} ?"
+  },
+  "AddEventScreen": {
+    "newWishList": "New wish list"
+  },
+  "WishItemScreen": {
+    "selectQuantity": "Select quantity",
+    "quantity": "Quantity",
+    "cancelGift": "No",
+    "totalQuantityReached": "%{TotalQuantity} of %{quantity} reached",
+    "quantityReached": "%{TotalQuantity} reached",
+    "someoneIsGivingThis": "Someone is giving this",
+    "iWouldLikeToGiveThis": "I would like to give this",
+    "iAmGivingThis": "I am giving this",
+    "editGift": "Change my choice",
+    "discussThis": "Discuss this",
+    "giveThisItem": "Give this item",
+    "whatToDO": "What do you want to do?",
+    "WouldLikeToGiveThisExplain": "Show other guests that someone is giving this present. They can't see WHO is giving it, and the owner of the wish list can't see it at all.\nTap here if you are giving this present:"
+  },
+  "ArchivedEventsScreen": {
+    "archivedWishLists": "Archived wish lists",
+    "noWishListsFound": "No wish lists found"
+  },
+  "ProfileScreen": {
+    "settings": "Settings",
+    "accountSettings": "Account settings",
+    "accountPassword": "Change password",
+    "logoutConfirmation": "Are you sure you want to logout?"
+  },
+  "ChatScreen": {
+    "chat": "Chat",
+    "nameTheNewChat": "Name the new chat",
+    "noMessages": "No messages",
+    "noChats": "No chats found",
+    "chatMoreInfo": "More chat info",
+    "about": "about %{name}", //As in "This is about Alice"
+    "chatting": "Chatting", //As in "Who are chatting"
+    "goToChat": "Go to chat",
+    "plusMore": "more", //As in "+ 3 more" if "more" does not make sense, leave it empty: ""
+    "createChatButton": "Start chat",
+    "chatBlockExplain": "%{name} has been blocked",
+    "chatPlaceholder": "Type a message...",
+    "chatSendButton": "Send"
+  },
+  "feedback": {
+    "subject": "Subject",
+    "message": "Message",
+    "placeHolder": "enter your message..."
+  },
+  "HomeScreen": {
+    "friendsWishes": "Friends",
+    "invitations": "Invitations",
+    "pending": "Pending",
+    "archive": "Archive",
+    "home": "Home"
+  },
+  "AddGuestsScreen": {
+    "manageGuests": "Manage guests",
+    "addedGuests": "Added guests",
+    "myContacts": "My contacts",
+    "unsavedChanges": "You have unsaved changes. Do you want to save the changes?",
+    "noGuestsAdded": "No Guests added"
+  },
+  "GuestsScreen": {
+    "editGroup": "Edit Group",
+    "eventGuestCategory": "Category",
+    "noGuests": "No Guests found"
+  },
+  "AddAndEditWishScreen": {
+    "editWish": "Edit wish",
+    "addWish": "Add wish",
+    "labelWishName": "Wish name",
+    "labelNewWishName": "Name of new wish",
+    "enterWishName": "Enter wish name", //Placeholder text when field is empty
+    "labelEventUrl": "Website URL",
+    "enterUrl": "Enter website URL", //Placeholder text when field is empty
+    "labelComment": "Comment",
+    "enterComment": "Enter comment(s)", //Placeholder text when field is empty
+    "deleteWish": "Delete wish",
+    "confirmDelete": "Are you sure you want to delete?"
+  },
+  "MainNavigation": {
+    "settings": "Settings",
+    "chat": "Chat",
+    "home": "Home",
+    "me": "My list"
+  },
+  "Share": {
+    "invite": "Invite via",
+    "message": "Text message (SMS)",
+    "whatsapp": "WhatsApp",
+    "email": "Gmail",
+    "otherOptions": "Other options",
+    "inviteNewUser": "Hi!\n\nMy wish list is on 'Wishes'!\n\nWe can share our wish lists there, and I have one ready for you!\n\nDownload the app 'Wishes: events and presents' in the App Store/Play Store.\n\nApp Store (iPhone/iPad):\n%{AppleURL}\n\nPlay Store (Android):\n%{PlayURL}"
+  }
+}

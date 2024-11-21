@@ -1,0 +1,289 @@
+{
+  "common": { 
+    "icuGuest": "{numPersons, plural, =0 {0 Gæst} =1 {1 Gæst} other {# Gæster}}",
+    "icuWishe": "{numPersons, plural, =0 {0 Ønske} =1 {1 Ønske} other {# Ønsker}}",
+    "submit":"indsende",
+    "google": "Google",
+    "facebook": "Facebook",
+    "back": "Tilbage", 
+    "emailPlaceholder": "Emailaddresse", //Text shown in input field, when empty
+    "phonePlaceholder": "Mobilnummer", //Text shown in input field, when empty
+    "passPlaceholder": "Adgangskode", //Text shown in input field, when empty
+    "confirmPassword": "Bekræft Password",
+    "reset": "Reset", //Reset button, when resetting password
+    "backLogin": "gå tilbage",
+    "gotoLink": "Se hjemmeside", //Text on button for users external link
+    "participants": "Deltagere",
+    "sharedGroups": "Fælles grupper", //Groups of people. Ask about this (messagesInfoScreen)
+    "delete": "Slet",
+    "cancel": "Annuller", 
+    "logout": "Log ud",
+    "share":"dele",
+    "save": "Gem", 
+    "addNew":"Tilføj nyt",
+    "ok": "OK",
+    "done":"færdig",
+    "block": "Bloker %{name}", //As in "Block Brian Trump"
+    "close": "Luk", //As in "Close the window"
+    "publish": "Udgivet", //Make a draft wish list visible
+    "unpublish":"Upubliceret",
+    "details": "Detaljer", //Wish list details
+    "wishListSingular": "Ønskeliste",
+    "wishListPlural": "Ønskelister",
+    "wishSingular": "Ønske",
+    "wishPlural": "Ønsker", 
+    "guestSingular": "Gæst", 
+    "productUrl":"Produkt-url",
+    "guestPlural": "Gæster",
+    "selectAll": "Vælg alle",
+    "deselectAll": "Fjern alle",
+    "searchPlaceholder": "Søg efter...", //Text shown in input field, when empty
+    "wishListBy": "Ønskeliste af", //As in "Wish list owned by X". "Wish list by John"
+    "eventDate": "Dato",
+    "edit": "Rediger",
+    "change": "Skift",
+    "Version": "Version %{version}", //App version. Don't translate %{version}
+    "update": "Opdater",
+    "respond": "Responder",
+    "draft": "Ikke udgivet", //When a wish list is still a draft. (changing between "Publish" and "Not published")
+    "me": "Mig", //As in "Myself" 
+    "viewAllInvitations": "Se alle invitationer",
+    "accept": "Ja tak", //As in "Please accept"
+    "reject": "Nej tak", //As in "you can choose to reject"
+    "selectLanguage": "Vælg sprog",
+    "rateApp": "Bedøm denne app", //Rate app in app store
+    "24hours": "24-Timer",
+    "invite": "Inviter", //As in "Invite Joanna"
+    "timeAt": "kl.", //"at 12pm"
+    "online": "Online", //As in "Is online"
+    "offline": "Offline", //As in "Is offline"
+    "welcomeMessage": "%{users} har fået Wishes", //As in "Anna joined Wishes". Don't translate %{users} 
+    "image": "Billede",
+    "chooseFromGallery": "Vælg fra galleriet",
+    "removeUploadedImg": "Fjern billede", 
+    "labelQuantity": "Antal",
+    "optional": "ikke påkrævet", //As in "Field is optional"
+    "enterReceivedCode": "Indtast godkendelseskoden som du har modtaget pr. SMS",
+    "confirm": "Bekræft",
+    "chooseWish":"Vælg Ønske",
+    "createnew":"skabe nyt",
+    "selectDate":"Vælg dato",
+    "selectTime":"Vælg tidspunkt",
+    "noInternetConnection": "Ingen internetforbindelse",
+    "removeMeFromEvent":"Slet listen (tag mig af listen)",
+    "blockConfirmation":"Er du sikker på at du vil blokere denne bruger? Når brugeren er blokeret, kan vedkommende ikke længere sende dig invitationer.",
+    "invitationFrom":"Invitation til ønskeliste fra",
+    "unblock": "Fjern blokering", //As in "Block a person"
+    "events":"Begivenheder",
+    "notFoundText":"Ingen begivenheder fundet.", 
+    "sureDelete":"Er du sikker på, at du vil slette?",
+    "sureDeleteTwo":"Er du sikker på, at du vil slette",
+    "meText":"mine lister",
+    "addwish":"tilføje ønske",
+    "addguest":"tilføje gæst",
+    "wishNot":"Ønsker ikke fundet",
+    "gaustNot":"Gæster ikke fundet", 
+    "remove":"Fjerne",
+    "selectTheme":"Vælg tema",
+    "removeText":"Aru du sikker på at du vil fjerne?",
+    "contacts":"kontakter",
+    "noContactMessage":"Ingen kontakter fundet!",
+    "invitationNot":"Har ikke nogen invitation",
+    "editEvent":"Rediger begivenhed",
+    "editWishes":"Rediger ønsker",
+    "editWishList":"Rediger ønskeliste",
+    "createChat":"Opret chat",
+    "memberGroup":"Medlem af gruppen",
+
+    "required":"feltet er påkrævet",
+    "error":"indtast gyldig Password",
+    "matchText":"password skal matche",
+    "minText":"password skal have minimum 8 tegn",
+    "maxText":"password må ikke overstige 16 tegn",
+    "cnfError":"indtast gyldig Bekræft ny adgangskode"
+  },
+  "errors": {
+    "fieldError": "Nogle af de indtastede felter ikke ikke korrekte",
+    "invalidPhone": "Mobilnummeret er ikke korrekt",
+    "passwordMatchError": "De to passwords er ikke ens"
+  },
+  "LoginScreen": {  
+    "logIn": "Log ind",
+    "forgotPassText": "Glemt dit password?",
+    "orContinueWith": "eller fortsæt med", //As in "Or continue with Google"
+    "dontHaveAccount": "Har du ikke en konto? Register",
+    "signUpNow": "Opret din konto",
+    "itsFree": "Det er gratis"
+  },
+  "RegisterScreen": {
+    "signUp": "Registrering",
+    "firstNamePlaceholder": "Fornavn",
+    "lastNamePlaceholder": "Efternavn",
+    "register": "Registrer", //The "Submit sign up form" button.
+    "alreadyAccount": "Har du allerede en konto? Log ind",
+    "logInNow": "Log ind nu",
+    "accText":"Ved at fortsætte anerkender jeg",
+    "policyText": "Wishes App's privatlivspolitik",
+    "phone":"Mobilnummer"
+  },
+  "ForgotPassword": {
+    "heading": "Glemt password?",
+    "sendConfirmationCode": "Send nulstillingskode",
+    "forgotPasswordExplainLine": "Hvis du har glemt dit password, kan du lave et nyt. Skriv dit mobilnummer herunder, for at anmode om den godkendelseskode som du skal bruge for at sætte dit password."
+  },
+  "OtpScreen":{
+    "hadeing":"Bekræft kode",
+    "otpText":"Indtast venligst den kode, vi sender til dit nummer",
+    "notReceive":"Modtog du ikke otp?",
+    "resendText":"Send OTP igen",
+    "placeText":"indtaste kode"
+  },
+  "ResetPassword": {
+    "resetPassword": "Gem nyt password"
+  },
+  "MessagesInfoScreen": {
+    "chatCleared": "Chat er blevet ryddet",
+    "clearChatConfirmation": "Er du sikker på at du vil rydde denne chat?",
+    "clearChat": "Ryd Chat",
+    "deleteChatConfirmation": "Er du sikker på at du vil slette denne chat?",
+    "blockConfirmation": "Er du sikker på at du vil blokere?"
+  },
+  "ChangePasswordScreen": {
+    "changePassword": "Skift password",
+    "oldPassword": "Gammelt password",
+    "newPassword": "Nyt password",
+    "confirmNewpass": "Bekræft nyt password",
+    "error":"indtast gyldig adgangskode",
+    "cnfError":"indtast gyldig Bekræft ny adgangskode",
+    "matchText":"password skal matche",
+    "minText":"password skal have minimum 8 tegn",
+    "maxText":"password må ikke overstige 16 tegn"
+  },
+  "BlockedUserScreen":{
+    "blockedContacts":"Blokerede kontakter",
+    "noContactsBlocked":"Ingen blokerede kontakter"
+  },
+  "EditAccountInfoScreen": {
+    "editAccountInfo": "Rediger kontoinstillinger"
+  },
+  "EventDetailsScreen": {
+    "details": "Detaljer",
+    "eventName": "Begivenhedens navn",
+    "enterWishListName": "Skriv begivenhedens navn",
+    "date": "Dato",
+    "time": "Klokkeslet",
+    "eventLocation": "Sted",
+    "eventLocationPlaceholder": "Skriv sted for begivenheden",
+    "selectTime":"vælg tid",
+    "selectDate":"vælg dato"
+  },
+  "ManageGuestsScreen": {
+    "addGroup": "Tilføj gruppe",
+    "eventGuestsCat": "Gruppe",
+    "enterGroup": "Skriv gruppens navn",
+    "noGroup": "Ingen grupper fundet",
+    "editGuests": "Rediger gæster"
+  },
+  "ManageWishesScreen": {
+    "editWishes": "Rediger",
+    "noWishes": "Ingen ønsker fundet"
+  },
+  "ManageEventScreen": {
+    "deleteEvent": "Slet ønskeliste",
+    "deleteConfirmation": "Er du sikker på at du vil slette %{EventName} ?"
+  },
+  "AddEventScreen": {
+    "newWishList": "Ny ønskeliste"
+  },
+  "WishItemScreen": {
+    "selectQuantity": "Vælg antal",
+    "quantity": "Antal",
+    "cancelGift": "Nej",
+    "totalQuantityReached": "%{TotalQuantity} af %{quantity} nået",
+    "quantityReached": "%{TotalQuantity} nået",
+    "someoneIsGivingThis": "Nogen har valgt at give dette",
+    "iWouldLikeToGiveThis": "Jeg vil gerne give dette",
+    "iAmGivingThis": "Jeg giver dette",
+    "editGift": "Skift valg",
+    "discussThis": "Chat om dette", 
+    "giveThisItem": "Giv dette",
+    "whatToDO": "Hvad vil du?",
+    "WouldLikeToGiveThisExplain": "Vis andre gæster at nogen giver denne gave. De kan ikke se HVEM der giver gaven, og ejer af ønskelisten kan slet ikke se det.\nTryk her, hvis du giver gaven:"
+  },
+  "ArchivedEventsScreen": {
+    "archivedWishLists": "Arkiverede ønskelister",
+    "noWishListsFound": "Ingen ønskelister fundet"
+  },
+  "ProfileScreen": {
+    "settings": "Indstillinger",
+    "accountSettings": "Kontoindstillinger",
+    "accountPassword": "Skift password",
+    "logoutConfirmation": "Er du sikker på at du vil logge ud?"
+  },
+  "ChatScreen": {
+    "chat": "Snak",
+    "nameTheNewChat": "Navngiv ny chat",
+    "noMessages": "Ingen beskeder",
+    "noChats": "Ingen chats fundet",
+    "chatMoreInfo": "Mere chat info",
+    "about": "om %{name}", //As in "This is about Alice"
+    "chatting": "Deltagere", //As in "Who are chatting"
+    "goToChat": "Åben chat",
+    "plusMore": "mere", //As in "+ 3 more" if "more" does not make sense, leave it empty: ""
+    "createChatButton": "Start chat",
+    "chatBlockExplain": "%{name} er blokeret",
+    "chatPlaceholder":"Skriv en besked...",
+    "charSendButton": "Send"
+  },
+  "feedback":{
+    "subject":"emne",
+    "message":"besked",
+    "placeHolder":"indtast din besked..."
+  }, 
+  "HomeScreen": {
+    "friendsWishes": "Venner",
+    "invitations": "Invitationer",
+    "pending": "Afventer",
+    "archive": "Arkiv",
+    "home":"Hjem"
+  },
+  "AddGuestsScreen": {
+    "manageGuests": "Rediger gæster",
+    "addedGuests": "Tilføjede gæster",
+    "myContacts": "Mine kontakter",
+    "unsavedChanges": "Du har ugemte ændringer. Vil du gemme ændringerne?",
+    "noGuestsAdded": "Ingen gæster tilføjet."
+  },
+  "GuestsScreen": {
+    "editGroup": "Rediger gruppe",
+    "eventGuestCategory": "Kategori",
+    "noGuests": "Ingen gæster fundet"
+  },
+  "AddAndEditWishScreen": {
+    "editWish": "Rediger ønske",
+    "addWish": "Tilføj ønske",
+    "labelWishName": "Navn på ønsket",
+    "labelNewWishName": "Navn på nyt ønske",
+    "enterWishName": "Skriv navn på ønsket", //Placeholder text when field is empty
+    "labelEventUrl": "Hjemmeside",
+    "enterUrl": "Skriv hjemmesidens adresse", //Placeholder text when field is empty
+    "labelComment": "Kommentar",
+    "enterComment": "Skriv kommentar", //Placeholder text when field is empty
+    "deleteWish": "Slet ønske",
+    "confirmDelete": "Er du sikker på at du vil slette?"
+  },
+  "MainNavigation": {
+    "settings": "Indstillinger",
+    "chat": "Snak",
+    "home":"Hjem",
+    "me":"mine lister"
+  },
+  "Share": {
+    "invite": "Inviter via",
+    "message": "SMS",
+    "whatsapp": "WhatsApp",
+    "email": "Gmail",
+    "otherOptions": "Flere muligheder",
+    "inviteNewUser": "Hej!\n\nMin ønskeliste er på 'Wishes'!\n\nVi kan dele vores ønskelister der, og jeg har allerede en klar til dig!\n\nDownload appen 'Wishes: begivenheder og ønsker' i App Store/Play Store.\n\nApp Store (iPhone/iPad):\n%{AppleURL}\n\nPlay Store (Android):\n%{PlayURL}"
+  }
+}
